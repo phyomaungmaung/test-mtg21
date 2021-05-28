@@ -1,0 +1,22 @@
+.navbar-custom-menu{
+    line-height: 0.5 !important;
+}
+
+body{
+    line-height: 1.1!important;
+}
+
+.box-header.with-border{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.text-danger{
+    padding-left: 15px;
+    padding-top: 2px;
+}
+@media print {
+    .box{
+        border-top: none;
+    }
+}

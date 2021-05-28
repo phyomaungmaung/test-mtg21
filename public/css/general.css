@@ -1,0 +1,78 @@
+.video{
+    min-height:  500px;
+    min-width:800px;
+    padding-left: 0px!important;
+    margin-left: 0px !important;
+}
+video::-internal-media-controls-download-button {
+    display:none;
+}
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+
+.pdf-box{
+    height: 500px;
+    width: 100%;
+}
+.guide-title{
+    color:  Blue;
+}
+.img_pd_btm{
+    padding-bottom: 2px;
+    margin-right: 10px;
+}
+.txt_mg_r{
+    margin-right: 10px
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #3498db;
+    width: 25px;
+    height: 25px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 769px) {
+    .video{
+        min-height:  300px;
+        min-width:420px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .video{
+        padding-left: 0px!important;
+        margin-left: 0px !important;
+        min-height:  250px;
+        min-width:300px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .video{
+        height:  180px;
+        /*min-width:220px;*/
+        width:200px;
+        min-height:  180px;
+        min-width:220px;
+    }
+
+}
